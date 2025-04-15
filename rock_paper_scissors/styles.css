@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+div {
+    width: auto;
+    height: auto;
+}
+
+.parts {
+    font-size: 8rem;
+    border-radius: 50%;
+    margin-left: 50px;;
+    background: hsla(182, 100%, 52%);
+    box-shadow: 1px 1px 1px 1px rgb(71, 69, 69);
+    cursor: pointer;
+}
+
+.parts:first-of-type {
+    margin-left: 0;
+}
+
+#computerDisplay {
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#resultDisplay{
+    font-size: 3rem;
+}
+
+.scoreDisplay {
+    font-size: 2rem;
+}
+
+.greenText, #playerScoreDisplay{
+    color: green;
+}
+
+.redText, #computerScoreDisplay{
+    color: red;
+}
+
+.yellowText{
+    color: yellow;
+}
